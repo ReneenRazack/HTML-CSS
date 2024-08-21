@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: rgb(27, 182, 187);
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
+        .deposite{
+            display: flex;
+            flex-direction: column;
+            background-color: darkorchid;
+            height: 300px;
+            padding-top: 100px;
+            width: 400px;
+            box-shadow: 6px 6px 6px  black;
+        }
+        .withdraw{
+            display: flex;
+            flex-direction: column;
+            background-color:#32cd32 ;
+            height: 300px;
+            padding-top: 100px;
+            width: 400px;
+            box-shadow: 6px 6px 6px  black;
+        }
+        .balence{
+            display: flex;
+            flex-direction: column;
+            background-color : #f5deb3;
+            height: 300px;
+            padding-top: 100px;
+            width: 400px;
+            box-shadow: 6px 6px 6px  black;
+        }
+        .balence  p{
+            background-color: white;
+            box-shadow: 6px 6px 6px  black;
+        }
+    </style>
+    <h1 style="text-align: center;">Bank of India</h1>
+    <div class="container">
+        <div class="deposite">
+    <label for="deposite" style="text-align: center; font-weight: 700;">enter the deposite amount</label>
+    <input type="text" id="deposite">
+    <button onclick="depositea()">deposite</button><br><br>
+</div>
+<div class="withdraw">
+    <label for="withdraw" style="text-align: center; font-weight: 700;">enter the amount to withdrow</label>
+    <input type="text" id="withdraw">
+    <button onclick="withdrawa()">withdrow</button><br><br>
+</div>
+<div class="balence">
+    <button onclick="balencea()">balence</button>
+    <p id="result"></p>
+</div>
+</div>
+    <script>
+       let total=0;
+       let deposite=0;
+       let balence=0;
+       let withdraw=0;
+       function depositea(){
+        deposite = deposite + document.getElementById("deposite").value;
+         total = Number(total) + Number(deposite) ;
+       }
+       function withdrawa (){
+        withdraw = document.getElementById("withdraw").value;
+        if (Number(withdraw)>Number(total)){
+            alert('you are not able to withdraw');
+        }
+        else{
+            total = total - withdraw;
+        }
+        
+       }
+       function balencea(){
+        if( total <= 0){
+            document.getElementById('result').innerHTML='you have no money';
+        }else{
+            document.getElementById('result').innerHTML="your balence is"+Number(total) ;
+        }
+       }
+    </script>
+</body>
+</html>

@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 80%;
+    ;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: space-between;
+}.img-div{
+    margin-left:50px;
+}
+.na {
+    width: 100%;
+    height: 100%;
+    background-color: (197, 37, 37);
+    display: flex;
+    justify-content: center;
+}.na :hover{
+    background-color:azure;
+    cursor: pointer;
+}
+
+.ba {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}.ba :hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.right-div {
+    width: 260px;
+    height: 100%;
+
+    display: flex
+}
+
+.button {
+    background-color: white;
+    color:  rgb(88, 88, 233);
+    border-radius: 70px;
+    width: 120px;
+    height: 55px;
+    margin-top: 10px;
+    font-size: large;
+    border-color: rgba(88, 88, 233, 0.526);
+}
+
+.button1{
+    border: none;
+    color: rgb(29, 29, 34);
+    background-color: white;
+    padding-top: 2px;
+    border-radius: 70px;
+    width: 120px;
+    height: 55px;
+    margin-top: 10px;
+    font-size: large;
+}
+
+.ca {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.list {
+
+    width: 400px;
+    height:50px;
+    display: flex;
+    margin-left: 100px;
+    justify-content: flex-end;
+    border-right: 1px solid black;
+    margin-top: 20px;
+    
+}
+
+.art1 {
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: black;
+     opacity: 60%;
+}.art1:hover{
+    cursor: pointer;
+ opacity: 100%;
+}
+
+.art1>p{
+    margin: 5px 0px;
+}
+
+.ra1 {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+
+}
+
+.naa p {
+    font-weight: 300;
+    color: rgba(143, 88, 73, 255);
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+.ra2 {
+    width: 50%;
+    height: 80%;
+
+}
+
+.down {
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.form {
+    display: flex;
+    align-self: center;
+    justify-content: flex-start;
+    margin-top: -40px;
+}
+
+input[type="text"] {
+    width: 400px;
+    height: 45px;
+    display: flex;
+}
+
+label[for="name"] {
+    font-size: large;
+    color: slategrey;
+
+}
+
+input[type="password"] {
+    width: 400px;
+    height: 45px;
+    font-size: medium;
+    display: flex;
+}input[type="password"]:hover{
+    background-color: rgba(210, 216, 216, 0.397);
+}
+
+.p{
+    font-size: 20px;
+    color: rgba(10, 102, 194);
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.p a{
+    text-decoration: none;
+}
+.p :hover{
+    color: rgba(127, 225, 255, 0.899);
+
+}
+
+.sign {
+    border: none;
+    width: 401px;
+    height: 50px;
+    background-color: rgba(10, 102, 194, 255);
+    border-radius: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 18px;
+}.sig :hover{
+    background-color: rgb(0, 162, 255);
+}
+
+.hr {
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+hr {
+    width: 200px;
+    height: 0px;
+    display: flex;
+}
+
+.sa {
+
+    width: 401px;
+    height: 50px;
+    background-color: white;
+    border-radius: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.google {
+    width: 401px;
+    height: 24px;
+    background-color: white;
+    border-radius: 42px;
+    display: flex;
+    justify-content: center;
+}
+
+.google p {
+    color: black;
+    font-size: large;
+    display: flex;
+    align-items: self-end;
+    margin-top: 25px;
+}.si :hover{
+    background-color:azure;
+}
+
+.se {
+    width: 401px;
+    height: 50px;
+    background-color: white;
+    border-radius: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(58, 67, 75);
+    font-size: medium;
+    margin-top: 20px;
+}
+
+.ra2 img {
+    width: 800px;
+    margin-top: 70px;
+    margin-left: 100px;
+    height: 650px;
+}
+
+
+
+.A:hover{
+    background-color: rgba(210, 216, 216, 0.397);
+}
+

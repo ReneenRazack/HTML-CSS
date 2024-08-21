@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .list{
+            text-transform: capitalize;
+            padding: 10px;
+        }
+        .nav1{
+            display: flex;
+            background-color: white;
+            width: 100%;
+            height:56px;
+        }
+        .logo img{
+            float: left;
+            height: 40px;
+            width:40px;
+            margin-top: 10px;
+            margin-left: 10px;
+            
+        }
+        .list{
+            display: flex;
+
+        }
+        .list div{
+            height: 40px;
+            width: 80px;
+            margin-top: -10px;
+            padding-right: 2px;
+            padding-top: 15px;
+            padding-bottom: -2px;
+            margin-left: 16px;
+        }
+        .div1{
+            margin-top: 10px;
+            display: flex;
+            margin-left: 410px;
+            
+        }
+        .div1 div{
+            text-transform: capitalize;
+            font-weight: 400;
+            padding: 10px 5px 10px 17px;
+        }
+        .first{
+            background-color: rgba(42,44,56,255);
+            color: white;
+            width:25px;
+            height: 10px;
+            border-radius: 15px;
+        }
+        .second{
+            background-color: rgba(245,195,203,255);
+            color: rgb(3, 3, 3);
+            width:100px;
+            height: 10px;
+            border-radius: 15px;
+            margin-left: 10px;
+        }
+        .third{
+            background-color: rgba(253,243,162,255);
+            color: black;
+            width:100px;
+            height: 10px;
+            border-radius: 15px;
+            margin-left: 10px;
+        }
+        .fourth{
+            background-color: rgba(4,169,109,255);
+            position: absolute;
+            left: 1180px;
+            color: white;
+            width:50px;
+            height: 10px;
+            border-radius: 15px;
+            margin-left: 10px;
+        }
+        .fifth{
+            background-color: rgba(217,237,225,255);
+            color: white;
+            margin-left: 50px;
+            width:60px;
+            height: 10px;
+            border-radius: 15px;
+            margin-left: 50px;
+        }
+        .t{
+            margin-left: 17px;
+        }
+        .p{
+            position: absolute;
+            margin: -3px;
+            text-align: center;
+        }
+        .nav2{
+            background-color: rgba(40,42,54,255);
+            display: flex;
+            font-weight: 400;
+            width: 100%;
+            height: 32.5px;
+            text-transform: uppercase;
+            color: white;
+        }
+        .nav2 div{
+            padding-top: 9px;
+            padding-left: 13px;
+            padding-right: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+        .list div:hover{
+            background-color: green;
+        }
+        .nav2 div:hover{
+            background-color: black;
+        }
+        .last{
+            display: flex;
+            margin-top: -7px;
+            margin-left: 200px;
+        }
+        .l1{
+            float: right;
+            margin-left: 50px;
+        }
+        .l2{
+            float: right;
+            margin-left: 20px;
+        }
+        
+
+
+
+
+    </style>
+    <header>
+        <nav class="nav1">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/2175px-W3Schools_logo.svg.png" alt="">
+            </div>
+            <nav class="list">
+                   <div><a href="#">tutorials <i class="fa-solid fa-caret-down" style="color: #000000;"></i></a></div> 
+                 <div><a href="#">reference <i class="fa-solid fa-caret-down" style="color: #000000;"></i></a></div>  
+                   <div> <a href="#">exerices <i class="fa-solid fa-caret-down" style="color: #000000;"></i></a></div>
+                    <div><a href="#">bootcamp </a></div>
+            </nav>
+            <div class="div1">
+                <div class="first">
+                    <a href="#"><p>pro</p></a>
+                </div>
+                <div class="second">
+                    <a href="#"><p>get certified</p></a>
+                </div>
+                <div class="third">
+                    <a href="#"><p>create website</p></a>
+                </div>
+                <div class="fourth">
+                    <a href="#"> <p>signup</p></a>
+                </div>
+                <div class="fifth">
+                    <a href="#"><p class="t">login</p></a>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <nav class="nav2">
+        <div><a href="#"><i class="fa-solid fa-house-chimney" style="color: #ffffff;"></i></a> </div>
+        <div><a href="#">html</a></div>
+        <div><a href="#">css</a></div>
+        <div><a href="#">javascript</a></div>
+        <div><a href="#">sql</a></div>
+        <div><a href="#">python</a></div>
+        <div><a href="#">java</a></div>
+        <div><a href="#">php</a></div>
+        <div><a href="#">bootstrap</a></div>
+        <div><a href="#">how to</a></div>
+        <div><a href="#">w3.css</a></div>
+        <div><a href="#">c</a></div>
+        <div><a href="#">c++</a></div>
+        <div class="last">
+            <div class="l1"><i class="fa-solid fa-circle-half-stroke"></i></div>
+            <div class="l1"><i class="fa-solid fa-magnifying-glass" style="color: #fafafa;"></i></div>
+        </div>
+    </nav>
+    
+</body>
+</html>
